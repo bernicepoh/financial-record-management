@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finomy</title>
+    <!--Bootstrap CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(pic2.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin-top: 350px;
+        }
+        nav {
+            opacity: 0.9;
+        }
+        .nav-link {
+            color: white;
+            font-size: 23px;
+            font-family: clear sans;
+            margin-right: 120px;
+        }
+        .services .nav-link {
+            color: #C1FF72;
+        }
+        .back {
+        text-decoration: None;
+        font-family: clear sans;
+        font-size: 30px;
+        color: white;
+        margin-left: 20px;
+        }
+        article {
+            color: white;
+        }
+        h1 {
+            font-family: brice semiexpanded;
+            color: #4b864b;
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class = 'navbar-brand' href = '/'>
+                <img src = 'finomy.png'>
+            </a>
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-link" href="homepage.html">HOME</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="aboutuslogin.html">ABOUT US</a>
+                </li>
+                <div class = 'services'>
+                    <li>
+                        <a class="nav-link" href="serviceslogin.html"><b>SERVICES</b></a>
+                    </li>
+                </div>
+                
+                <li>
+                    <a class="nav-link" href="contactuslogin.html">CONTACT US</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="account.html">ACCOUNT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1><b>FINANCIAL REPORT</b></h1>
+    <br><br>
+    <div class="container mt-3">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist" >
+          <li class="nav-item" style="width: 430px; text-align: center;">
+            <a class="nav-link active text" data-bs-toggle="tab" href="#daily">Daily</a>
+          </li>
+          <li class="nav-item" style="width: 430px; text-align: center;">
+            <a class="nav-link text" data-bs-toggle="tab" href="#monthly">Montly</a>
+          </li>
+          <li class="nav-item" style="width: 430px; text-align: center;">
+            <a class="nav-link text" data-bs-toggle="tab" href="#yearly">Yearly</a>
+          </li>
+        </ul>
+      
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="daily" class="container tab-pane active"><br>
+            <section>
+              
+              <img src="graph1.png">
+            </section>
+          </div>
+    
+          <div id="monthly" class="container tab-pane fade"><br>
+            <section>
+              
+              <img src="graph2.png">
+            </section>
+          </div>
+    
+          <div id="yearly" class="container tab-pane fade"><br>
+            <section>
+              <img src="graph3.png">
+            </section>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    <a class='back' href="serviceslogin.html">< Back</a>
+    <br>
+
+    <!--Bootstrap JS Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
